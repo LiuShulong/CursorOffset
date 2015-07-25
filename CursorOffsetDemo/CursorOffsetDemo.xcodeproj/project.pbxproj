@@ -15,6 +15,7 @@
 		74752FC81B63A83E001F6AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74752FC61B63A83E001F6AA5 /* LaunchScreen.storyboard */; };
 		74752FD31B63A83E001F6AA5 /* CursorOffsetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74752FD21B63A83E001F6AA5 /* CursorOffsetDemoTests.m */; };
 		74752FDE1B63A83E001F6AA5 /* CursorOffsetDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74752FDD1B63A83E001F6AA5 /* CursorOffsetDemoUITests.m */; };
+		74752FEE1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 74752FED1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74752FD91B63A83E001F6AA5 /* CursorOffsetDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CursorOffsetDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74752FDD1B63A83E001F6AA5 /* CursorOffsetDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CursorOffsetDemoUITests.m; sourceTree = "<group>"; };
 		74752FDF1B63A83E001F6AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74752FEC1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CalculateCursorOffset.h"; sourceTree = "<group>"; };
+		74752FED1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CalculateCursorOffset.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		74752FAC1B63A83E001F6AA5 = {
 			isa = PBXGroup;
 			children = (
+				74752FEB1B63AE6B001F6AA5 /* Classes */,
 				74752FB71B63A83E001F6AA5 /* CursorOffsetDemo */,
 				74752FD11B63A83E001F6AA5 /* CursorOffsetDemoTests */,
 				74752FDC1B63A83E001F6AA5 /* CursorOffsetDemoUITests */,
@@ -138,6 +142,15 @@
 				74752FDF1B63A83E001F6AA5 /* Info.plist */,
 			);
 			path = CursorOffsetDemoUITests;
+			sourceTree = "<group>";
+		};
+		74752FEB1B63AE6B001F6AA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74752FEC1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.h */,
+				74752FED1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				74752FC01B63A83E001F6AA5 /* ViewController.m in Sources */,
 				74752FBD1B63A83E001F6AA5 /* AppDelegate.m in Sources */,
 				74752FBA1B63A83E001F6AA5 /* main.m in Sources */,
+				74752FEE1B63AE6B001F6AA5 /* UITextField+CalculateCursorOffset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +512,7 @@
 				74752FE41B63A83E001F6AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74752FE51B63A83E001F6AA5 /* Build configuration list for PBXNativeTarget "CursorOffsetDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				74752FE71B63A83E001F6AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74752FE81B63A83E001F6AA5 /* Build configuration list for PBXNativeTarget "CursorOffsetDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				74752FEA1B63A83E001F6AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
